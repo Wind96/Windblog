@@ -126,7 +126,10 @@ html, body {
 }
 
 .header {
-    background-color: #3498db;
+    background-image: url("../img/the_life.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	position: fixed;
     width: calc( 100% - 700px );
     float: right;
     padding: 30px;
@@ -141,16 +144,29 @@ html, body {
     margin-right: 10px;
 }
 
+.header a {
+	font-size: 1.2em;
+	color: #efefef; 
+}
+
 .large-image {
     margin-left: calc(-1 * ((50vw - 50%)));
     max-width: 96vw;
     transform: translateX(calc(50vw - 50%));
 }
 
+.fb-comments {
+	margin-top: 100px;
+	width: calc ( 100% - 30% );
+}
+
 .footer {
     text-align: center;
+	position: fixed;
     width: calc( 100% - 700px );
-    height: 20%;
+    height: calc( 100% - 80% );
+	bottom: 0;
+	right: 0;
     float: right;
     background-color: #3498db;
     padding: 30px;
