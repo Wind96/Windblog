@@ -126,7 +126,7 @@ html, body {
 }
 
 .header {
-    background-image: url("../img/the_life.jpg");
+    background-image: url("../img/stupid.jpg");
 	background-size: 100% 100%; 
 	background-repeat: no-repeat;
 	position: fixed;
@@ -145,7 +145,7 @@ html, body {
     margin-right: 10px;
 }
 .header a {
-	font-size: 1.2em;
+	font-size: 1.0em;
 	color: #efefef; 
 }
 
@@ -157,8 +157,11 @@ html, body {
 
 .footer {
     text-align: center;
+	position: fixed;
     width: calc( 100% - 700px );
-    height: 20%;
+    height: calc( 100% - 80% );
+	bottom: 0;
+	right: 0;
     float: right;
     background-color: #3498db;
     padding: 30px;
