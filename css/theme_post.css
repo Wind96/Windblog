@@ -113,7 +113,7 @@ html, body {
 
 .container {
     backgroud-color:  #FAFAFA;
-    width: calc( 100% - 300px );
+    width: calc( 100% - 25% );
     float: left;
     max-width: 700px;
     height: 100%;
@@ -130,12 +130,12 @@ html, body {
 	background-size: 100% 100%; 
 	background-repeat: no-repeat;
 	position: fixed;
-    width: calc( 100% - 700px );
+    width: calc( 100% - 75% );
 	right: 0;
 	top: 0; 
     float: right;
     padding: 30px;
-    height: 80%;
+    height: 85%;
     color: #FFF;
     font-weight: bold;
     font-size: 22px;
@@ -148,6 +148,26 @@ html, body {
 .header a {
 	font-size: 1.0em;
 	color: #efefef; 
+}
+.catalog {
+    border:  1px solid #3498db;
+    margin-top:  10%;
+    box-sizing:  border-box;
+    padding: 10px 0px 0px 10px;
+    width: 95%;
+    height: 50%;
+    overflow-y:  scroll;
+}
+.catalog a {
+    margin: 0px;
+    font-size: 0.8em;
+    line-height: 13px;
+}
+.catalog p {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: 5a69a6 ;
+    line-height: 20px; 
 }
 
 .large-image {
@@ -164,13 +184,13 @@ html, body {
 .footer {
     text-align: center;
 	position: fixed;
-    width: calc( 100% - 700px );
-    height: calc( 100% - 80% );
+    width: calc( 100% - 75% );
+    height: calc( 100% - 85% );
 	bottom: 0;
 	right: 0;
     float: right;
     background-color: #3498db;
-    padding: 30px;
+    padding: 10px;
 }
 
 .footer p, .footer p > * {
