@@ -131,13 +131,14 @@ html, body {
 	background-repeat: no-repeat;
 	position: fixed;
     width: calc( 100% - 700px );
+	right: 0;
+	top: 0; 
     float: right;
     padding: 30px;
     height: 80%;
     color: #FFF;
     font-weight: bold;
     font-size: 22px;
-    position: relative;
 }
 
 .header .icon {
