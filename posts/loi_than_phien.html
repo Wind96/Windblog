@@ -8,9 +8,20 @@
         <link rel="stylesheet" href="../css/highlight/tomorrow-night.css">
         <link rel="stylesheet" href="../css/fontello.css">
         <script src="../js/highlight.pack.js"></script>
+		<script src="../js/jquery-3.1.1.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#header").toggleClass("change");
+			});
+		});
+		</script>
+		
         <script>
         hljs.initHighlightingOnLoad();
         </script>
+		
     </head>
     <body>
 	
@@ -24,12 +35,26 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 	
-        <div class="header">
-            <a href="http://thangkho.tk">Tản mạn </br> chuyện "Thằng Khờ"</a>
+        <div id="header">
+            <a href="http://thangkho.tk">Tản mạn chuyện </br> "Thằng Khờ"</a>
 			<div class="catalog">
 				<a href="gioi_thieu.html">Lời giới thiệu</a>
 				<p> CHƯƠNG 1: CON NGƯỜI THẬT LẠ </p>
-				<a href="posts/loi_than_phien.html">Lời than phiền</a>
+				<a href="loi_than_phien.html">Lời than phiền</a>
+			</div>
+			<button>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="footer">
+				<p>Created with <a href="http://github.com/huytd/azeroth-js">azeroth.js</a></p>
+				<div class="social">
+					<a href="https://www.facebook.com/profile.php?id=100008617512615"><i class="icon-facebook-squared"></i></a>
+					<a href="https://twitter.com/Wind_096"><i class="icon-twitter-squared"></i></a>
+					<a href="https://github.com/Wind96/wind96.github.io"><i class="icon-github-squared"></i></a>
+					<a href="https://plus.google.com/u/0/104704445081106796330"><i class="icon-mail-alt"></i></a>
+				</div>
 			</div>
         </div>
         <div class="container">
@@ -58,17 +83,9 @@
 				<p>&nbsp;</p>
 				<p style="text-align: center;"> -- Ch&uacute;c c&aacute;c bạn kh&ocirc;ng c&ograve;n than phiền nữa --</p>
             </div>
-			<div class="fb-comments" data-href="http://thangkho.tk" data-numposts="5"></div>
+			<div class="fb-comments" data-href="http://thangkho.tk/posts/loi_than_phien.html" data-numposts="5"></div>
         </div>
-	    <div class="footer">
-            <p>Created with <a href="http://github.com/huytd/azeroth-js">azeroth.js</a></p>
-            <div class="social">
-                <a href="https://www.facebook.com/profile.php?id=100008617512615"><i class="icon-facebook-squared"></i></a>
-                <a href="https://twitter.com/Wind_096"><i class="icon-twitter-squared"></i></a>
-                <a href="https://github.com/Wind96/wind96.github.io"><i class="icon-github-squared"></i></a>
-                <a href="https://plus.google.com/u/0/104704445081106796330"><i class="icon-mail-alt"></i></a>
-            </div>
-        </div>
+	    
         <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
         <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
