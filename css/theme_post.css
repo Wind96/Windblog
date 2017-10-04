@@ -121,6 +121,12 @@ html, body {
     padding: 30px 30px;
 }
 
+.container img {
+	width: 90%;  
+	height: 50%;
+	margin-left: 5%;
+}
+
 .container a {
     color: #2980b9;
 }
@@ -139,6 +145,7 @@ html, body {
     font-weight: bold;
     font-size: 22px;
 	transition: 0.3s;
+	z-index: 1;
 }
 
 
